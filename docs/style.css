@@ -1,0 +1,99 @@
+ 
+#title{
+   text-align: center; 
+}
+#elemanekleme{
+    display: flex;
+    width: 80%;
+    min-height: 35px;
+    border: solid 1px gray;
+    margin: 0 auto;
+     justify-content: center;
+}
+#main_input{
+    margin: auto  0;
+    width: 80%;
+
+
+}
+#add_button{
+    color: white;
+    align-self: flex-start;
+    margin: auto  0;
+    font-size: 21.2px;
+}
+#list{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+     align-items: center;
+     flex-grow: 1;
+     
+}
+
+#clasing{
+width: 80%;
+margin: 10px auto;
+border: solid 1px grey;
+min-height: 35px;
+display: none;
+}
+#clasing2{
+display: flex;
+width: 80%;
+margin: auto auto;
+min-height: 35px;
+flex-wrap: wrap;
+}
+#notclasing{
+    background-color: #ffadad;
+    width: 80%;
+    height: 35px;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+}
+#notclasing p{
+    margin-left: 15px;
+    color: lightslategray;
+}
+ 
+.clascls{
+    height: 20px;
+    margin: auto 0;
+    margin-right: 5px;
+    color: white;
+    background-color:#435663;
+    border: 0;
+    border-radius: 5px;
+}
+.cls1{
+    background-color: #0046FF;
+}
+@media(max-width:311px){
+    .cls1{   
+        margin-top: 5px;
+    }
+    .cls2{   
+        margin-top: 5px;
+    }
+    .cls3{   
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+}
+.clear{
+    background-color: white;
+    color: #ff7b7b;
+    border: solid 1px #ff7b7b;
+    height: 100%;
+    border-radius: 10px;
+}
+#clear{
+    width: 80%;
+    margin: 5px auto;
+    height: 30px;
+    display: none;
+}
